@@ -4,6 +4,7 @@ import {
   addContact,
   deleteContact,
 } from './contacts-operations';
+
 const initialState = {
   items: [],
   loading: false,
