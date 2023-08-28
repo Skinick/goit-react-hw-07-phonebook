@@ -18,8 +18,6 @@ function App() {
     dispatch(fetchContacts());
   }, [dispatch]);
 
-  console.log(contacts);
-
   return (
     <div className={css.phonebookContainer}>
       <h1 className={css.titlePhonebook}>Phonebook</h1>
